@@ -1,3 +1,5 @@
 # GIT PRACTICE
 
-abcdefg
+html and css review for 2days
+
+to make repository, make branch
