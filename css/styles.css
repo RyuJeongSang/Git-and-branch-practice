@@ -9,10 +9,13 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /*Screens*/
 @import "Screens/login.css";
 @import "Screens/friends.css";
+@import "Screens/find.css";
+@import "Screens/more.css";
 
 body {
   color: #020721;
