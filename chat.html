@@ -52,33 +52,35 @@
           </div>
         </div>
       </div>
+      <div class="message-row message-row--own">        
+        <div class="message-row__contents"></div>
+          <div class="message-row__content">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">10:19</span>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="far fa-smile fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment-alt fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fas fa-search fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <i class="far fa-file-alt fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <form class="replay">
+      <div class="replay__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="replay__column">
+        <input type="text" placeholder="Write your Message...">
+        <i class="far fa-laugh-beam fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    
+    <div class="no-mobile">
+      <span>Screen is too big!</span>
+    </div>
+    
+
     <script
       src="https://kit.fontawesome.com/026322899e.js"
       crossorigin="anonymous"
