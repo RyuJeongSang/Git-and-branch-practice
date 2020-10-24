@@ -1,5 +1,5 @@
 # GIT PRACTICE
 
-html and css review for 2days
+html and css review
 
 to make repository, make branch
